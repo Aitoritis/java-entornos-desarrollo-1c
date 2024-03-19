@@ -61,9 +61,11 @@ public class Rectangulo {
      * @param altura
      */
     
-    public void getArea(int base, int altura) {
+    public int getArea() {
 
     	int area = base * altura;
+    	
+    	return area;
     	
     }
 
@@ -72,9 +74,11 @@ public class Rectangulo {
      * @param altura
      */
     
-    public void getPerimetro(int base, int altura) {
+    public int getPerimetro() {
 
     	int perimetro = (2 * base) + (2 * altura);
+    	
+		return perimetro;
     	
     }
 
