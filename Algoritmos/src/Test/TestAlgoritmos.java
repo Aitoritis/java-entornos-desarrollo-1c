@@ -14,9 +14,9 @@ class TestAlgoritmos {
 	@Test
 	void sumatorioAlgoritmos() {
 
-		int sumatorioEsperado = 10;
-		int sumatorioObtenido = s1.sumatorio(4);
-		assertEquals(sumatorioEsperado, sumatorioObtenido);
+		int factorialEsperado = 120;
+		int factorialObtenido = s1.factorial(5);
+		assertEquals(factorialEsperado, factorialObtenido);
 
 	}
 
