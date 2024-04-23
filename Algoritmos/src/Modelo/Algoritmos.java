@@ -13,6 +13,12 @@ public abstract class Algoritmos {
 		
 		int suma = 0;
 		
+		if (numero < 0) {
+			
+			throw new IllegalArgumentException("El número debe ser igual o superior a 0");
+			
+		}
+		
 		for (int i = 1; i <= numero; i++) {
 			
 			suma += i;
